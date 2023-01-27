@@ -5,7 +5,7 @@ version: 2.1
 jobs:
   my_job:
     docker:
-      - image: circleci/node:13.8.0
+      - image: circleci/node:12.8.0
     steps:
       - run: exit 1
       - run:
